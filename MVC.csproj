@@ -140,6 +140,12 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="About.aspx" />
+    <Content Include="Atividades.aspx" />
+    <Content Include="Cadastro.html" />
+    <Content Include="cadastrojs.js" />
+    <Content Include="cadastrojs2.js" />
+    <Content Include="cadastropai.html" />
+    <Content Include="cadastroprofessor.html" />
     <Content Include="Contact.aspx" />
     <Content Include="Content\bootstrap-theme.css" />
     <Content Include="Content\bootstrap-theme.min.css" />
@@ -149,6 +155,7 @@
     <Content Include="Default.aspx" />
     <Content Include="favicon.ico" />
     <Content Include="fonts\glyphicons-halflings-regular.svg" />
+    <Content Include="Forca.html" />
     <Content Include="Global.asax" />
     <Content Include="fonts\glyphicons-halflings-regular.woff2" />
     <Content Include="fonts\glyphicons-halflings-regular.woff" />
@@ -159,6 +166,7 @@
     <Content Include="Content\bootstrap-theme.min.css.map" />
     <Content Include="Content\bootstrap-theme.css.map" />
     <None Include="Scripts\jquery-3.4.1.intellisense.js" />
+    <Content Include="HtmlPage1.html" />
     <Content Include="Imagens\carosel1.png" />
     <Content Include="Imagens\carosel2.png" />
     <Content Include="Imagens\carosel3.png" />
@@ -169,14 +177,19 @@
     <Content Include="Imagens\feed3.png" />
     <Content Include="Imagens\github.png" />
     <Content Include="Imagens\gmail.png" />
+    <Content Include="Imagens\guia_cadastro.mp4" />
     <Content Include="Imagens\instagram.png" />
     <Content Include="Imagens\introdução.png" />
+    <Content Include="Imagens\licao_alfabeto.mp4" />
+    <Content Include="Imagens\licao_silabas.mp4" />
+    <Content Include="Imagens\licao_vogais.mp4" />
     <Content Include="Imagens\linkedIn.png" />
     <Content Include="Imagens\logo.png" />
     <Content Include="Imagens\logosquad.png" />
     <Content Include="Imagens\missão.png" />
     <Content Include="Imagens\telefone.png" />
     <Content Include="Imagens\youtube.png" />
+    <Content Include="jogos.aspx" />
     <Content Include="Scripts\bootstrap.js" />
     <Content Include="Scripts\bootstrap.min.js" />
     <Content Include="Scripts\jquery-3.4.1.js" />
@@ -206,6 +219,9 @@
     <Content Include="Scripts\WebForms\WebParts.js" />
     <Content Include="Scripts\WebForms\WebUIValidation.js" />
     <Content Include="Site.Master" />
+    <Content Include="Stylecadastro.aspx" />
+    <Content Include="Stylecadastro1.css" />
+    <Content Include="StyleJogo.css" />
     <Content Include="ViewSwitcher.ascx" />
     <Content Include="Web.config" />
     <Content Include="Bundle.config" />
@@ -223,6 +239,13 @@
     </Compile>
     <Compile Include="App_Start\RouteConfig.cs" />
     <Compile Include="App_Start\WebApiConfig.cs" />
+    <Compile Include="Atividades.aspx.cs">
+      <DependentUpon>Atividades.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Atividades.aspx.designer.cs">
+      <DependentUpon>Atividades.aspx</DependentUpon>
+    </Compile>
     <Compile Include="Contact.aspx.cs">
       <DependentUpon>Contact.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
@@ -240,6 +263,13 @@
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
+    <Compile Include="jogos.aspx.cs">
+      <DependentUpon>jogos.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="jogos.aspx.designer.cs">
+      <DependentUpon>jogos.aspx</DependentUpon>
+    </Compile>
     <Compile Include="Models\Aluno.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Site.Master.cs">
@@ -255,6 +285,13 @@
     </Compile>
     <Compile Include="Site.Mobile.Master.designer.cs">
       <DependentUpon>Site.Mobile.Master</DependentUpon>
+    </Compile>
+    <Compile Include="Stylecadastro.aspx.cs">
+      <DependentUpon>Stylecadastro.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Stylecadastro.aspx.designer.cs">
+      <DependentUpon>Stylecadastro.aspx</DependentUpon>
     </Compile>
     <Compile Include="ViewSwitcher.ascx.cs">
       <DependentUpon>ViewSwitcher.ascx</DependentUpon>

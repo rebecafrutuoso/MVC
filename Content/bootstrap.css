@@ -371,7 +371,7 @@ th {
   content: "\e024";
 }
 .glyphicon-download-alt:before {
-  content: "\e025";
+  content: "\e025"; 
 }
 .glyphicon-download:before {
   content: "\e026";

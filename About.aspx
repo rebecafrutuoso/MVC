@@ -1,9 +1,11 @@
-﻿<%@ Page Title="Quem Somos" Language="C#" MasterPageFile="~/Site.Master" AutoEventWireup="true" CodeBehind="About.aspx.cs" Inherits="MVC.About" %>
+﻿<%@ Page Title="" Language="C#" MasterPageFile="~/Site.Master" AutoEventWireup="true" CodeBehind="About.aspx.cs" Inherits="MVC.About" %>
 
 <asp:Content ID="BodyContent" ContentPlaceHolderID="MainContent" runat="server">
-    <h2><%: Title %>.</h2>
-    <h3>Your application description page.</h3>
-    <p>A proficiência é definida como "aprender a pronunciar", é o leitor proficiente é aquele
+    <h2><%: Title %></h2>
+     <br />
+     <img src="Imagens/introdução.png" width="1200px"/>
+    <br />
+    <p>  A proficiência é definida como "aprender a pronunciar", é o leitor proficiente é aquele
         que atráves da leitura consegue refletir sobre textos escritos de modo a conquistar 
         objetivos, desenvolver conhecimento e potencial para participar da sociedade.
     </p>
@@ -19,5 +21,7 @@
         os hábitos são construídos desde pequenos, e assim poderemos formar alunos com um alto nível de 
         proficiência e impactar não somente eles como também seus familiares próximos.
     </p>
-    <p> Quer conhecer mais sobre a RECREIO? Entre em contato.</p>
+    <img src="Imagens/missão.png" width="1200px" />
+    <br />    <br />
+    <p> Quer conhecer mais sobre a RECREIO? Entre em <a href="Contact.aspx"> contato</a></p>
 </asp:Content>

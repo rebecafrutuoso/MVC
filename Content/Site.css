@@ -31,10 +31,14 @@ textarea {
     }
 }
 
+.color {
+    background-color: lightgreen;
+}
+
 .navbar-inverse .navbar-toggle:hover,
 .navbar-inverse .navbar-toggle:focus {
-    background-color: #b9d78e;
-    border-color: #b9d78e;
+    background-color:aqua;
+    border-color:aqua;
 }
 
 
@@ -54,3 +58,27 @@ textarea {
             color: var(--text-color-orange);
         }
 
+
+.main-container {
+    width: 100%;
+}
+
+.video-container {
+    margin: 0rem -1rem 0rem -1rem;
+    padding: 28%;
+    position: relative;
+}
+
+.video {
+    top: 5%;
+    left: 5%;
+    width: 90%;
+    height: 90%;
+    cursor: pointer;
+    position: absolute;
+    border-radius: 0.3rem;
+}
+
+.form-container {
+    width: 100%;
+}
