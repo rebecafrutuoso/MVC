@@ -189,7 +189,6 @@
     <Content Include="Imagens\missão.png" />
     <Content Include="Imagens\telefone.png" />
     <Content Include="Imagens\youtube.png" />
-    <Content Include="jogos.aspx" />
     <Content Include="Scripts\bootstrap.js" />
     <Content Include="Scripts\bootstrap.min.js" />
     <Content Include="Scripts\jquery-3.4.1.js" />
@@ -223,7 +222,6 @@
     <Content Include="Stylecadastro1.css" />
     <Content Include="StyleJogo.css" />
     <Content Include="ViewSwitcher.ascx" />
-    <Content Include="Web.config" />
     <Content Include="Bundle.config" />
     <Content Include="Site.Mobile.Master" />
     <Content Include="Views\web.config" />
@@ -241,7 +239,6 @@
     <Compile Include="App_Start\WebApiConfig.cs" />
     <Compile Include="Atividades.aspx.cs">
       <DependentUpon>Atividades.aspx</DependentUpon>
-      <SubType>ASPXCodeBehind</SubType>
     </Compile>
     <Compile Include="Atividades.aspx.designer.cs">
       <DependentUpon>Atividades.aspx</DependentUpon>
@@ -262,13 +259,6 @@
     </Compile>
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
-    </Compile>
-    <Compile Include="jogos.aspx.cs">
-      <DependentUpon>jogos.aspx</DependentUpon>
-      <SubType>ASPXCodeBehind</SubType>
-    </Compile>
-    <Compile Include="jogos.aspx.designer.cs">
-      <DependentUpon>jogos.aspx</DependentUpon>
     </Compile>
     <Compile Include="Models\Aluno.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
@@ -309,12 +299,6 @@
     <None Include="packages.config" />
     <Content Include="Scripts\jquery-3.4.1.slim.min.map" />
     <Content Include="Scripts\jquery-3.4.1.min.map" />
-    <None Include="Web.Debug.config">
-      <DependentUpon>Web.config</DependentUpon>
-    </None>
-    <None Include="Web.Release.config">
-      <DependentUpon>Web.config</DependentUpon>
-    </None>
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
